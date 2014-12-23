@@ -51,6 +51,16 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/klte-common" name="CyanogenMod/android_device_samsung_klte-common" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/klte" name="CyanogenMod/android_device_samsung_klte" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/klteusc" name="CyanogenMod/android_device_samsung_klteusc" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/kltedv" name="CyanogenMod/android_device_samsung_kltedv" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="cm" revision="cm-11.0" />
+    <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="cm" revision="cm-11.0" />
+    <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -449,5 +459,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="cm" revision="cm-11.0" />
-
+  <project path="vendor/samsung" name="CyanogenMod/android_vendor_samsung" remote="cm" revision="cm-11.0" />
 </manifest>
